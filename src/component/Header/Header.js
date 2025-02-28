@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <div className='text-center bg-primary text-white header'>
+      My App
+    </div>
   )
 }
