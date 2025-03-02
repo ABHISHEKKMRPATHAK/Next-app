@@ -3,6 +3,7 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css'
 import { Header } from "@/component/Header/Header";
 import { Footer } from '@/component/Footer/Footer'
+import Menu from "@/component/Menu/Menu";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header/>
         {children}
+        <Menu/>
         <Footer/>
       </body>
     </html>
